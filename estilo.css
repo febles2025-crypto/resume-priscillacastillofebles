@@ -1,0 +1,165 @@
+
+
+body {
+    background-color: #fcecf2;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 30px;}
+
+.cv {
+    background-color: white;
+    width: 80%;
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px #d9b9c5;}
+
+
+.encabezado {
+    background-color: #f8dce7;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    border-bottom: 4px solid #d85d8a;}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;}
+
+h1 {
+    color: #9e315d;
+    font-size: 30px;}
+
+.encabezado h3 {
+    color: #5b3545;
+    font-size: 16px;}
+
+.ubicacion {
+    color: #666666;}
+
+a {
+    color: #b83d70;
+    text-decoration: none;
+    font-weight: bold;}
+
+a:hover {
+    color: #702044;
+    text-decoration: underline;}
+
+
+.seccion {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #fff8fb;
+    border-left: 5px solid #d85d8a;
+    border-radius: 8px;}
+
+.seccion:hover {
+    background-color: #fce4ed;}
+
+
+h2 {
+    color: #a83261;
+    font-size: 22px;
+    border-bottom: 2px solid #e9a3bd;
+    padding-bottom: 8px;}
+
+h3 {
+    color: #4d3540;
+    font-size: 17px;}
+
+
+.experiencia {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eed3dd;
+    transition: 0.3s;}
+
+.empresa {
+    color: #b83d70;
+    font-weight: bold;}
+
+
+.formacion {
+    background-color: #fff0f5;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #f1c5d5;
+    position: relative;}
+
+
+.formacion:hover {
+    background-color: #eeb3ca;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 12px #d9a1b6;
+}
+
+.formacion:hover h3 {
+    color: #702044;
+}
+
+.institucion {
+    color: #666666;
+}
+
+
+.estado {
+    display: inline-block;
+    background-color: #d85d8a;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;}
+
+
+ul {
+    line-height: 1.8;
+}
+
+.lista-habilidades li {
+    background-color: #fce4ed;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;}
+
+.lista-habilidades li:hover {
+    background-color: #eeb3ca;
+    color: #702044;}
+
+
+footer {
+    text-align: center;
+    color: #888888;
+    font-size: 13px;
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 1px solid #e9a3bd;}
+
+/* Para que se adapte */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .cv {
+        width: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .encabezado h3 {
+        font-size: 14px;
+    }
+}
